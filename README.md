@@ -40,4 +40,17 @@ Additional addon to React:
 ### After React
 
 React is not a complete solution in most case [no SEO, browser Render of JS, no routing]
-Framework: NextJS, Gatsby, Remix
+Framework: NextJS, Gatsby,
+
+"
+React web or mobile ?
+-> React DOM (for web-application/website)
+-> React Native (for mobile applications)
+-> threejs (for animations)
+"
+
+
+# Node Package Manager (NPM)
+# Node package Executor (NPX)
+
+
