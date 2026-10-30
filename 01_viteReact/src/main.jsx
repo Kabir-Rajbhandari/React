@@ -2,8 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 // import { jsx as _jsx} from "react/jsx-runtime";
 
+// sub-components:
+
 import App from "./App.jsx";
-import { StrictMode } from "react";
+import MainApp from "./components/one.jsx";
+import AboutPage from "./components/two.jsx";
+import ShoppingList from "./components/three.jsx";
 
 function MyApp() {
   return (
@@ -50,4 +54,11 @@ const anotherELement = (
   </a>
 );
 
-ReactDOM.createRoot(document.getElementById("root")).render(ReactElement);
+ReactDOM.createRoot(document.getElementById("root")).render(
+  // ReactElement
+  <>
+    {/* <MainApp /> */}
+    {/* <AboutPage /> */}
+    <ShoppingList />
+  </>,
+);
