@@ -4,12 +4,12 @@ function Sample() {
     // <> </> => Fragment which basically parks single component as kind of div but without the naming element, whereas inside the wrapper can return all the stuffs easily without error..
     <>
       <ul>
-        <li>A</li>
-        <li>B</li>
-        <li>C</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>Java</li>
       </ul>
       <form action="" method="post">
-        <label htmlFor="">Text me: </label>
+        <label htmlFor="">Type here:</label>
         <input type="text" />
         <br />
       </form>
