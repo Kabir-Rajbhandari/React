@@ -1,5 +1,14 @@
+import Sample from "./Sample";
 function App() {
-  return <h1>Hello World..</h1>;
+  return (
+    <>
+      <Sample />
+      <h2>Working Smoothly</h2>
+      <ul>
+        <li>---</li>
+      </ul>
+    </>
+  );
 }
 
 export default App;
