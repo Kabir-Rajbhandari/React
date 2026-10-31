@@ -58,7 +58,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   // ReactElement
   <>
     {/* <MainApp /> */}
-    {/* <AboutPage /> */}
+    <AboutPage />
     <ShoppingList />
   </>,
 );

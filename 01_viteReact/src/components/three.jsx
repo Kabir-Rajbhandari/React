@@ -43,25 +43,32 @@
 
 // Rendering Lists:
 // => rely on JavaScript features like for loop and the array map () function to render lists of components.
-const products = [
-  { title: "Kiwi", id: 101 },
-  { title: "Mango", id: 102 },
-  { title: "Strawberry", id: 103 },
-];
 
 function ShoppingList() {
+  const products = [
+    { title: "Kiwi", id: 101 },
+    { title: "Mango", id: 102 },
+    { title: "Strawberry", id: 103 },
+  ];
   const listItems = products.map((product) => {
-    <li
-      style={{
-        color: "black",
-      }}
-      key={product.id}
-    >
-      {product.title}
-    </li>;
+    return (
+      <li
+        style={{
+          color: "black",
+        }}
+        key={product.id}
+      >
+        {product.title}
+      </li>
+    );
   });
 
-  return <ul>{listItems}</ul>;
+  return (
+    <>
+      <h1>WOrking or what ?</h1>
+      <ul>{listItems}</ul>
+    </>
+  );
 }
 
 export default ShoppingList;
