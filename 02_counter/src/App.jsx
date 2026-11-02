@@ -23,23 +23,36 @@ function App() {
   //   setCount(count--);
   // };
 
-  let [count, setCount] = useState(10);
+  const [count, setCount] = useState(10);
 
   const increaseValue = () => {
     if (count <= 20) {
-      setCount(count++);
+      // => interview point of view questions: what will be the setCount latetst value after click.. ?
+      // => the following increment by one, [batch, fibre, useState concept]
+      // setCount(count + 1);
+      // setCount(count + 1);
+      // setCount(count + 1);
+      // setCount(count + 1);
+      // setCount(count + 1);
+      // setCount(count + 1); //=> 11
+
+      setCount((prevCount) => prevCount + 1);
+      setCount((prevCount) => prevCount + 1);
+      setCount((prevCount) => prevCount + 1);
+      setCount((prevCount) => prevCount + 1);
+      setCount((prevCount) => prevCount + 1); // => 15
     } else {
       alert("Unable to upgrade the counter..");
-      setCount((count = 20));
+      setCount(20);
     }
   };
 
   const decreaseValue = () => {
     if (count >= 0) {
-      setCount(count--);
+      setCount(count - 1);
     } else {
       alert("Unable to decrease the counter..");
-      setCount((count = 0));
+      setCount(0);
     }
   };
 
