@@ -3,7 +3,6 @@ import { useState, useCallback, useEffect, useRef } from "react";
 import "./App.css";
 
 function App() {
-
   // variables
   const [length, setLength] = useState(8);
   const [numberAllow, setNumberAllow] = useState(false);
@@ -12,7 +11,6 @@ function App() {
 
   // useRef hook:
 
-  
   const passwordRef = useRef(null);
 
   // useCallBack(): useCallBack is a react hook that lets to cacge a function definition between re-renders. useCallBack(fn, dependencies)
