@@ -13,14 +13,11 @@ function App() {
         <div className=" z-[999] bg-white/50 backdrop-blur-sm w-[460px] h-[400px] rounded-lg flex flex-col justify-center px-5 relative shadow-xl">
           <h3
             className="text-[1.3rem] text-center inline-block
-          uppercase font-[Calibri] font-bold text-[#36415A]"
+          uppercase font-[Arial] font-bold text-[#36415A]"
           >
             Currency Converter
           </h3>
-          <div
-            className="h-fit px-3 py-6 mb-3 bg-white rounded-md
-           border-[2px] border-solid border-[#005A9C]"
-          >
+          <div className="h-fit px-3 py-6 mb-3 bg-white rounded-md border-[2px] border-solid border-[#005A9C]">
             <div className="flex justify-between opacity-50 ">
               <h4 className="inline-block">From</h4>
               <h4 className="inline-block">Currency Type</h4>

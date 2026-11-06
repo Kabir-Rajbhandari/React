@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 
+// custom hooks
 function useCurrencyInfo(currency) {
   // => incase of API 400 error
   const [data, setData] = useState({});
