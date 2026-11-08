@@ -16,10 +16,9 @@ function useCurrencyInfo(currency) {
       .then((res) => res.json())
       // json response accessing key
       .then((res) => {
-        res[currency];
+        setData(res[currency]);
       });
-
-    console.log(data);
+    // console.log(data);
   }, [currency]);
 
   return data;
