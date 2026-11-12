@@ -5,6 +5,20 @@
 => For install react-router-dom:
 
 - npm install react-router-dom
+  => while using react-router-dom in the main.jsx must need to import BrowserReact for the route i.e.
+
+```javascript
+import { BrowserRouter } from "react-router-dom";
+import App from "./App.jsx";
+
+createRoot(document.getElementById("root")).render(
+  <StrictMode>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </StrictMode>,
+);
+```
 
 ### Link vs NavLink
 
