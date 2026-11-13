@@ -39,3 +39,8 @@ createRoot(document.getElementById("root")).render(
   </NavLink>
 </li>
 ```
+
+
+### About RouterProvider: "<RouterProvider />"
+
+=> It usually uses in main.jsx as, it must need prop
