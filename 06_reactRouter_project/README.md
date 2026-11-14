@@ -40,7 +40,11 @@ createRoot(document.getElementById("root")).render(
 </li>
 ```
 
-
 ### About RouterProvider: "<RouterProvider />"
 
-=> It usually uses in main.jsx as, it must need prop
+=> It usually uses in main.jsx as, it must need prop [
+<RouterProvider router={router} />
+]
+
+
+=> for dunamic change of the content and the fixed content uses Outlet from react-router-dom, 
