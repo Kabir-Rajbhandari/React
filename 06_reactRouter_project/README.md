@@ -46,5 +46,4 @@ createRoot(document.getElementById("root")).render(
 <RouterProvider router={router} />
 ]
 
-
-=> for dunamic change of the content and the fixed content uses Outlet from react-router-dom, 
+=> for dunamic change of the content and the fixed content uses Outlet from react-router-dom,
