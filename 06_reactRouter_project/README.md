@@ -46,4 +46,15 @@ createRoot(document.getElementById("root")).render(
 <RouterProvider router={router} />
 ]
 
-=> for dunamic change of the content and the fixed content uses Outlet from react-router-dom,
+=> for dynamic change of the content and the fixed content uses Outlet from react-router-dom,
+
+useParams => for the paramater access of the URL (component)
+
+loader properties: more optimization on behalf of fetchiing data from api or database, already fetch data before the useState happens, and store in a cache memory
+
+<Route
+loader={}
+path="github"
+element={<GitHub />} />
+</Route>,
+),
