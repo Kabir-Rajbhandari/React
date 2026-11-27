@@ -20,8 +20,8 @@ export const todoSlice = createSlice({
     },
     updateTodo: (state, action) => {
       state.todos = state.todos.filter((todo) => {
-        todo.id === action.payload
-      })
-    }
+        todo.id === action.payload;
+      });
+    },
   },
 });
